@@ -61,7 +61,7 @@ input, button, select{
     gap: 20px;
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 800px) {
     #formBuilder{
         display: grid;
         grid-template-columns: 1fr;

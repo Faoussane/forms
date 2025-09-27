@@ -61,10 +61,22 @@ input, button, select{
     gap: 20px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 974px) {
     #formBuilder{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
+        font-size: .8rem;
     }
+    .titre{
+        display: grid !important;
+        gap: 10px !important;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .titre > * {
+        display: block;
+        width: 100% !important;
+    }
+
 }
